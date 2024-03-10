@@ -3,13 +3,13 @@ import { exponent, square, cube } from './exponent';
 import { multiply } from './math';
 
 describe('exponent', () => {
-  it('should correctly calcuate the exponent of a number', () => {
+  it('should correctly calculate the exponent of a number', () => {
     expect(exponent(4, 2)).toBe(Math.pow(4, 2));
   });
 });
 
 describe('square', () => {
-  it('should correctly calcuate the square of a number', () => {
+  it('should correctly calculate the square of a number', () => {
     expect(square(4)).toBe(Math.pow(4, 2));
   });
 

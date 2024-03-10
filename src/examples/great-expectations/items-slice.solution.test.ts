@@ -11,9 +11,9 @@ it('returns an empty array as the initial state', () => {
 });
 
 it('supports adding an item with the correct name', () => {
-  expect(reducer([], add({ name: 'iPhone' }))).toEqual([
-    expect.objectContaining({ name: 'iPhone' }),
-  ]);
+  const result = reducer([], add({ name: 'iPhone' }));
+
+  expect(result).toEqual([expect.objectContaining({ name: 'iPhone' })]);
 });
 
 it('prefixes ids with "item-"', () => {

@@ -18,7 +18,7 @@ describe('makeLouder', () => {
 });
 
 describe('embolden', () => {
-  it('should wrap a fiven string in <b> tags like it is 1999', () => {
+  it('should wrap a string in <b> tags like it is 1999', () => {
     expect(embolden('lol')).toBe('<b>lol</b>');
   });
 });
