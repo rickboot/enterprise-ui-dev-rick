@@ -96,7 +96,7 @@ describe('Person', () => {
 
     john.addFriend(paul);
 
-    expect(Array.from(paul.friends)).toContains(john);
+    expect(Array.from(paul.friends)).toContain(john);
   });
 
   it('will mutually add a friend', () => {
