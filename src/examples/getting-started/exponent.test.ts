@@ -19,7 +19,7 @@ describe('square', () => {
 });
 
 describe('cube', () => {
-  it('should correctly calcuate the cube of a number', () => {
+  it('should correctly calculate the cube of a number', () => {
     expect(cube(2)).toBe(Math.pow(2, 3));
   });
 });
