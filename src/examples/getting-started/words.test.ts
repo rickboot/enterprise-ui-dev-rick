@@ -12,7 +12,7 @@ describe('repeat', () => {
 });
 
 describe('makeLouder', () => {
-  it('should repeat the word three times by default', () => {
+  it('should make the word all uppercase', () => {
     expect(makeLouder('lol')).toBe('LOL');
   });
 });
