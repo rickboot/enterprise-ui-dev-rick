@@ -32,11 +32,11 @@ describe('multiply', () => {
 });
 
 describe('divide', () => {
-  it('should multiply the multiplicand by the multiplier', () => {
+  it('should divide first parameter by second parameter correctly', () => {
     expect(divide(12, 4)).toBe(3);
   });
 
-  it('should not multiply two numbers incorrectly', () => {
+  it('should not divide two numbers incorrectly', () => {
     expect(multiply(4, 2)).not.toBe(1000);
   });
 });
